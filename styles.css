@@ -1,0 +1,58 @@
+.botones{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.link{
+    display: inline-block;
+   
+}
+
+
+
+.category{
+    display: inline-block;
+
+}
+
+
+
+.menu{
+    text-align: center;
+    word-spacing: 8px;
+    
+  
+}
+
+
+footer{
+    background-color: #2F303A;
+    
+}
+
+main{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+nav{
+    border-color: #ECECEC;
+    border-width: 1px;
+    border-style: solid;
+}
