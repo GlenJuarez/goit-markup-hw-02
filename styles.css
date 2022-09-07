@@ -1,7 +1,6 @@
 /** @format */
 
 body {
-  
   font-size: 14px;
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -9,27 +8,27 @@ body {
   background-color: var(--body background-color);
   color: var(--text-color);
   line-height: 1.5em;
-  
 }
 
-html{
-    
-    width: 1600px;
-    height: 2410px;
-    margin: auto;
+html {
+  width: 1600px;
+  height: 2410px;
+  margin: auto;
 }
-.initial{
 
-    text-align: center;
-    background-color: #2F303A;
-    color: #FFFFFF;
-    
-    position: relative;
-   padding-top: 200px;
-   padding-bottom: 280px;
-   padding-left: 482px;
-   padding-right: 452px;
 
+.initial {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  background-color: #2f303a;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-left: 482px;
+  padding-right: 452px;
+  font-size: 30px;
+  line-height: 1.5em;
 }
 .botones {
   font-family: "Roboto", sans-serif;
@@ -39,14 +38,21 @@ html{
   margin-top: 20px;
 }
 
-.botones:hover{
-    color: green;
+.click{
+    background-color:#2196F3;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
 
- a:hover{
-    color: yellow;
+.botones:hover {
+  color: green;
 }
 
+a:hover {
+  color: yellow;
+}
 
 .title {
   font-family: "Roboto", sans-serif;
@@ -55,19 +61,29 @@ html{
 
 .description {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 16px;
 }
 
+.two{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  
 }
 
-h2.solution {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
+.initial > h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+  }
 
 .principal {
   font-family: "Roboto", sans-serif;
@@ -78,30 +94,35 @@ button.principal {
   object-position: center;
 }
 
+.thedescriptions{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #757575;
+
+}
+
 .link {
-    display: flex;
+  display: flex;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
-.link1{
-    color:  #2196F3;
+.link1 {
+  color: #2196f3;
 }
 
-.link2{
-    color:  #212121;
+.link2 {
+  color: #212121;
 }
 
-.link3{
-    color:   #757575;
-    
+.link3 {
+  color: #757575;
 }
-
 
 .category {
-    display: inline-block;
-  }
+  display: inline-block;
+}
 
 .menu {
   text-align: center;
@@ -109,17 +130,14 @@ button.principal {
   display: flex;
   margin-left: 300px;
   margin-right: 300px;
-  
 }
 
 footer {
   background-color: #2f303a;
   padding-left: 215px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-
-
 
 header {
   border-color: #ececec;
@@ -127,34 +145,28 @@ header {
   border-style: solid;
   text-decoration: none;
   display: flex;
-  
 }
 
 .title-text {
   text-decoration: none;
-  color:  #2196F3;
+  color: #2196f3;
   padding-left: 215px;
-  
 }
 
 .foot {
-    text-decoration: none;
-    color:  #2196F3;
-    width: 1600px;
-    height: 252px;
-    
-    
-  }
+  text-decoration: none;
+  color: #2196f3;
+  width: 1600px;
+  height: 252px;
+}
 
 nav > ul {
   display: flex;
-  
 }
 
 li {
   list-style-type: none;
   margin: 10px;
-  
 }
 
 .contact {
@@ -167,19 +179,17 @@ li {
   display: flex;
 }
 
-
-
-.direction{
+.direction {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color:  #FFFFFF;
+  color: #ffffff;
   line-height: 24px;
 }
 
-.date{
+.date {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color:  #757575;
+  color: #757575;
   line-height: 24px;
 }
